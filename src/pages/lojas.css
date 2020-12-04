@@ -1,0 +1,18 @@
+
+.fundo {
+    background-color: rgb(147, 112, 216);
+   
+
+}
+
+.letras {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h4 {
+    font-family: 'Major Mono Display', monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat&family=Nerko+One&display=swap');
+

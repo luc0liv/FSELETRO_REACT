@@ -1,0 +1,19 @@
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.active {
+    border-bottom: 2px solid rgba(255, 255, 245, .9);
+}
+
+
+.fundo {
+    background-color: rgb(216, 191, 216);
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat&family=Nerko+One&display=swap');

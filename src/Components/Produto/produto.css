@@ -1,0 +1,47 @@
+
+figure>img {
+    width: 190px;
+    
+}
+
+figcaption {
+    position: relative;
+    text-align: center;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    width: 150px;
+    background-color: rgba(194, 110, 250, 0.5);
+    border-top: 2px dotted rgba(128, 0, 128, 0.5);
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    top: -50px;
+    visibility: hidden;
+}
+
+figcaption>p {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+.nome-prod{
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+
+.preco-prod {
+    text-decoration: line-through;
+    font-size: 10pt;
+    color: rgb(128, 128, 128);
+}
+
+.precofinal-prod {
+    
+    font-size: 15pt;
+    font-weight: bolder;
+    color: rgb(25, 25, 112);
+}
+
+
