@@ -4,7 +4,7 @@ export default function Footer(props) {
     return (
 <Container className="rod">
 
-    <p>&copy; Recode Pro </p>
+    <p>&copy; Luciana Oliveira da Cunha</p>
 
 </Container>
         
