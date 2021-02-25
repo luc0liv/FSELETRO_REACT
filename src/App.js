@@ -15,16 +15,16 @@ function App() {
         <BrowserRouter>
         <div className = "App">
          <header> 
-       <Suspense fallback={<p>carregando...</p>}> <Menu /></Suspense>
+       <Suspense fallback={<p>Carregando...</p>}> <Menu /></Suspense>
 </header>  
 <main>
     <Container fluid>
-    <Suspense fallback={<p>carregando...</p>}><Rotas /> </Suspense>
+    <Suspense fallback={<p>Carregando...</p>}><Rotas /> </Suspense>
     </Container>
 </main>
 <footer>
     <div>
-    <Suspense fallback={<p>carregando...</p>}><Footer /> </Suspense>
+    <Suspense fallback={<p>Carregando...</p>}><Footer /> </Suspense>
     </div>
 </footer>
         </div>
