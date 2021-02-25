@@ -1,26 +1,30 @@
-import Rotas from './rotas';
-import Menu from './Components/Menu';
-import Footer from './Components/Footer/rodape.js'
+import {lazy, Suspense} from "react";
+//import Rotas from './rotas';
+//import Menu from './Components/Menu';
+//import Footer from './Components/Footer/rodape.js'
 import {BrowserRouter } from 'react-router-dom';
 import {Container} from 'react-bootstrap';
 import './App.css';
 
+const Menu = lazy(()=> import ("./Components/Menu"));
+const Rotas = lazy(()=> import ("./rotas"));
+const Footer = lazy(()=> import ("./Components/Footer/rodape"));
 
 function App() {
     return (
         <BrowserRouter>
         <div className = "App">
          <header> 
-        <Menu />
+       <Suspense fallback={<p>carregando...</p>}> <Menu /></Suspense>
 </header>  
 <main>
     <Container fluid>
-       <Rotas /> 
+    <Suspense fallback={<p>carregando...</p>}><Rotas /> </Suspense>
     </Container>
 </main>
 <footer>
     <div>
-        <Footer />
+    <Suspense fallback={<p>carregando...</p>}><Footer /> </Suspense>
     </div>
 </footer>
         </div>

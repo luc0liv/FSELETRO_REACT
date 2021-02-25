@@ -14,19 +14,19 @@ import './Menu.css';
        <Navbar.Collapse id="item-menu">
            <Nav activeKey={location.pathname} className="ml-auto mr-3">
            <Nav.Item>
-                   <Nav.Link as={Link} href="/inicial" to="/inicial" className="text-info">Página Inicial</Nav.Link>
+                   <Nav.Link as={Link} href="/inicial" to="/inicial" className="text-white">Página Inicial</Nav.Link>
                </Nav.Item> 
                <Nav.Item>
-                   <Nav.Link as={Link} href="/produtos" to="/produtos" className="text-info">Produtos</Nav.Link>
+                   <Nav.Link as={Link} href="/produtos" to="/produtos" className="text-white">Produtos</Nav.Link>
                </Nav.Item>
                <Nav.Item>
-                   <Nav.Link as={Link} href="/pedidos" to="/pedidos" className="text-info">Pedidos</Nav.Link>
+                   <Nav.Link as={Link} href="/pedidos" to="/pedidos" className="text-white">Pedidos</Nav.Link>
                </Nav.Item>
                <Nav.Item>
-                   <Nav.Link as={Link} href="/lojas" to="/lojas" className="text-info" >Nossas Lojas</Nav.Link>
+                   <Nav.Link as={Link} href="/lojas" to="/lojas" className="text-white" >Nossas Lojas</Nav.Link>
                </Nav.Item>
                <Nav.Item>
-                   <Nav.Link as={Link} href="/contato" to="/contato" className="text-info">Fale Conosco</Nav.Link>
+                   <Nav.Link as={Link} href="/contato" to="/contato" className="text-white">Fale Conosco</Nav.Link>
                </Nav.Item>
            </Nav>
        </Navbar.Collapse>
